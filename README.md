@@ -404,7 +404,7 @@ It is also possible to search for specific key bindings by pressing:
 To narrow the bindings list to those prefixed with `<SPC>`,
 type a pattern like this regular expression:
 
-    SPC\ b
+    SPC\b
 
 which would list all `buffer` related bindings.
 
