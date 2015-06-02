@@ -87,7 +87,7 @@ styles _seamlessly_ which makes it possible for programmers with different
 styles to do seat pair programming using the _same_ editor.
 
 Since switching between the two styles is so simple, Spacemacs is the perfect
-setup to learn the "other way" or even crazier, to get the best of both
+setup to learn the "other way"—or (even crazier) to get the best of both
 worlds by developing your own hybrid style.
 
 Spacemacs is also a user-friendly and well-documented Emacs kit that
