@@ -92,7 +92,7 @@ worlds by developing your own hybrid style.
 
 Spacemacs is also a user-friendly and well-documented Emacs kit that
 integrates the best Emacs packages out there. It uses [Evil Mode][] to combine
-the ergonomic editing features of Vim and Emacs with the flexibility of a
+the ergonomic editing features of Vim with the flexibility of Emacs’s
 lisp-powered engine.
 
 If you are already an experienced Emacs user, you will appreciate the elegantly
