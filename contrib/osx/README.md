@@ -45,7 +45,7 @@ To use this configuration layer, add it to your `~/.spacemacs`
 
 ### Coreutils
 
-To get `gls` install coreutils homebrew:
+To get `gls` install coreutils with homebrew:
 
 ```sh
 brew install coreutils
