@@ -395,7 +395,7 @@ function of a package.
 ## Key bindings discovery
 
 Thanks to [guide-key][], whenever a prefix command is pressed (like `<SPC>`)
-a buffer appears after one second listing the possible keys for this prefix.
+a buffer appears (after a short pause) listing the possible keys for this prefix.
 
 It is also possible to search for specific key bindings by pressing:
 
