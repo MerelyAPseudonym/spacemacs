@@ -413,12 +413,12 @@ which would list all `buffer` related bindings.
 `Describe functions` are powerful Emacs introspection commands to get information
 about functions, variables, modes etc. These commands are bound thusly:
 
-Key Binding   |                 Description
---------------|------------------------------------------------------------------
-`<SPC> h d f` | describe-function
-`<SPC> h d k` | describe-key
-`<SPC> h d m` | describe-mode
-`<SPC> h d v` | describe-variable
+Key Binding          |                 Description
+---------------------|------------------------------------------------------------------
+<kbd>SPC h d f</kbd> | describe-function
+<kbd>SPC h d k</kbd> | describe-key
+<kbd>SPC h d m</kbd> | describe-mode
+<kbd>SPC h d v</kbd> | describe-variable
 
 # How-To's
 
