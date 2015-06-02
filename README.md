@@ -120,7 +120,7 @@ Spacemacs looks good. It ships with quality themes and a beautiful mode-line.
 
 ## Excellent ergonomics
 
-Spacemacs is designed around the [Evil Mode][] and a leader key. All the
+Spacemacs is designed around the [Evil Mode][] and a [leader key](doc/DOCUMENTATION.md#leader-key). All the
 packages are customized to integrate seamlessly with Evil.
 
 Spacemacs also define micro-states to group related commands. These
