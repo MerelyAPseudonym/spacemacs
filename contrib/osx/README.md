@@ -1,11 +1,11 @@
-# OSX contribution layer for Spacemacs
+# OS X contribution layer for Spacemacs
 
 ![applogo](img/apple.png)![osxlogo](img/osx.png)
 
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc/generate-toc again -->
 **Table of Contents**
 
-- [OSX contribution layer for Spacemacs](#osx-contribution-layer-for-spacemacs)
+- [OS X contribution layer for Spacemacs](#osx-contribution-layer-for-spacemacs)
     - [Description](#description)
     - [Philosophy](#philosophy)
     - [Install](#install)
@@ -18,8 +18,8 @@
 
 ## Description
 
-Spacemacs is not just emacs+vim. It can have OSX keybindings too! 
-This layer globally defines common OSX keybindings. ⌘ is set to
+Spacemacs is not just emacs+vim. It can have OS X keybindings too! 
+This layer globally defines common OS X keybindings. ⌘ is set to
 `super` and ⌥ is set to `meta`. Aside from that, there's nothing
 much, really.
 
@@ -27,8 +27,8 @@ While in `dired` this layer will try to use `gls` instead of `ls`.
 
 ## Philosophy
 
-While this layer enables common OSX bindings, it does not implement
-OSX navigation keybindings. Spacemacs is meant to be used with evil,
+While this layer enables common OS X bindings, it does not implement
+OS X navigation keybindings. Spacemacs is meant to be used with evil,
 and we encourage you to do so :)
 
 ## Install
@@ -69,4 +69,4 @@ brew install coreutils
 ## Future Work
 
 - Allow user to choose from either `hyper` or `super` as ⌘. This is an option that is supported cross-platform.
-- Configurable option to keep the OSX and spacemacs clipboards separate
+- Configurable option to keep the OS X and spacemacs clipboards separate
