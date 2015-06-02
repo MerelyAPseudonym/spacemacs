@@ -543,7 +543,7 @@ details.
 [Gitter Chat IRC server]: https://irc.gitter.im/
 [MacType]: https://code.google.com/p/mactype/
 [emacs-mac-port]: https://github.com/railwaycat/homebrew-emacsmacport
-[emacs-mac-port-server]: https://github.com/railwaycat/emacs-mac-port/blob/master/README-mac#L210-L213
+[emacs-mac-port-server]: https://github.com/railwaycat/emacs-mac-port/blob/d8dd0ba08022462ca5145b947b637e82cd2febe3/README-mac#L210-L213
 [homebrew]: https://github.com/Homebrew/homebrew
 [emacs-for-windows]: http://emacsbinw64.sourceforge.net/
 [the platinum searcher]:
