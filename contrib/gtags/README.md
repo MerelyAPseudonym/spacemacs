@@ -21,7 +21,7 @@ as definitions or references.
 
 ## Features
 
-- Select any tag in a project retrieves by gtags
+- Select any tag in a project retrieved by gtags
 - Resume previous helm-gtags session
 - Jump to a location based on context
 - Find definitions
