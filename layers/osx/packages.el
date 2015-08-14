@@ -22,7 +22,7 @@ Can be installed with `brew install trash'."
     (setq mac-system-move-file-to-trash-use-finder t))
 
   ;; Use `gls' if `coreutils' was installed prefixed ('g') otherwise, leave
-  ;; alone. Manually add to config `(setq dired-use-ls-dired nil)' to surpesss
+  ;; alone. Manually add to config `(setq dired-use-ls-dired nil)' to suppress
   ;; warnings, when not using `coreutils' version of 'ls' on OS X.
   ;; See brew info coreutils
   (when (executable-find "gls")
