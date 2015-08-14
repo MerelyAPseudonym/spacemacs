@@ -29,7 +29,7 @@ Can be installed with `brew install trash'."
     ;; maybe absolute or relative name of the `ls' program used by
     ;; `insert-directory'.
     (setq insert-directory-program "gls"
-          dired-listing-switches "-aBhl --group-directories-first")
+          dired-listing-switches "-l --all --ignore-backups --human-readable --group-directories-first")
     ))
 
 (defun osx/init-pbcopy ()
