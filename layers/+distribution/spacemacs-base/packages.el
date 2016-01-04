@@ -26,9 +26,10 @@
         evil-visualstar
         (evil-evilified-state :location local :step pre :protected t)
         exec-path-from-shell
-        fill-column-indicator
+        (fill-column-indicator :location (recipe :fetcher github
+                                                 :repo "MerelyAPseudonym/Fill-Column-Indicator"))
         helm
-        helm-descbinds
+        (helm-descbinds :stable t)
         helm-flx
         helm-projectile
         (helm-spacemacs :location local)

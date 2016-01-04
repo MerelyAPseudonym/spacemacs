@@ -26,6 +26,7 @@
         define-word
         desktop
         doc-view
+        (highlight :step pre)  ; needed by `eval-sexp-fu'
         eval-sexp-fu
         evil-anzu
         evil-args
@@ -522,6 +523,10 @@
               (text-mode)
               (doc-view-minor-mode))
           ad-do-it)))))
+
+(defun spacemacs/init-highlight ()
+  (require 'highlight)
+  )
 
 (defun spacemacs/init-eval-sexp-fu ()
   ;; ignore obsolete function warning generated on startup

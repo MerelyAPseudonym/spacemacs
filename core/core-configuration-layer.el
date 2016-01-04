@@ -111,9 +111,10 @@
              "If non-nil this package is excluded from all layers.")))
 
 (defvar configuration-layer--elpa-archives
-  '(("melpa" . "melpa.org/packages/")
-    ("org"   . "orgmode.org/elpa/")
-    ("gnu"   . "elpa.gnu.org/packages/"))
+  '(;;("melpa" . "melpa.org/packages/")
+    ;;("org"   . "orgmode.org/elpa/")
+    ("gnu"   . "elpa.gnu.org/packages/")
+    ("MELPA Stable" . "stable.melpa.org/packages/"))
   "List of ELPA archives required by Spacemacs.")
 
 (defvar configuration-layer--package-archives-refreshed nil

@@ -110,6 +110,7 @@
   ;; package-build is required by quelpa
   (spacemacs/load-or-install-protected-package 'package-build t)
   (setq quelpa-verbose init-file-debug
+        quelpa-stable-p t
         quelpa-dir (concat spacemacs-cache-directory "quelpa/")
         quelpa-build-dir (expand-file-name "build" quelpa-dir)
         quelpa-persistent-cache-file (expand-file-name "cache" quelpa-dir)
