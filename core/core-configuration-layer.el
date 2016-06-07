@@ -111,7 +111,7 @@
              "If non-nil this package is excluded from all layers.")))
 
 (defvar configuration-layer--elpa-archives
-  '(;;("melpa" . "melpa.org/packages/")
+  '(;;("MELPA" . "melpa.org/packages/")
     ;;("org"   . "orgmode.org/elpa/")
     ("gnu"   . "elpa.gnu.org/packages/")
     ("MELPA Stable" . "stable.melpa.org/packages/"))

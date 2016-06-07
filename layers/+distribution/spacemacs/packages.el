@@ -17,12 +17,14 @@
         ace-window
         adaptive-wrap
         aggressive-indent
-        auto-highlight-symbol
+        (auto-highlight-symbol :location (recipe :fetcher github
+                                                 :repo "MerelyAPseudonym/auto-highlight-symbol"))
         avy
         bracketed-paste
         buffer-move
         (centered-cursor :location local)
-        clean-aindent-mode
+        (clean-aindent-mode :location (recipe :fetcher github
+                                              :repo "MerelyAPseudonym/clean-aindent-mode"))
         define-word
         desktop
         doc-view
@@ -30,7 +32,8 @@
         eval-sexp-fu
         evil-anzu
         evil-args
-        evil-exchange
+        (evil-exchange :location (recipe :fetcher github
+                                         :repo "MerelyAPseudonym/evil-exchange"))
         evil-iedit-state
         evil-indent-plus
         evil-lisp-state
@@ -77,9 +80,12 @@
         recentf
         smartparens
         smooth-scrolling
+        ;; (powerline :stable nil)
         spaceline
-        vi-tilde-fringe
-        volatile-highlights
+        (vi-tilde-fringe :location (recipe :fetcher github
+                                           :repo "MerelyAPseudonym/vi-tilde-fringe"))
+        (volatile-highlights :location (recipe :fetcher github
+                                               :repo "MerelyAPseudonym/volatile-highlights.el"))
         window-numbering
         (zoom-frm :location local)
         ))
