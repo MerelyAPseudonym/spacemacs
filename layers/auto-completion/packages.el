@@ -10,12 +10,13 @@
 ;;; License: GPLv3
 
 (setq auto-completion-packages
-      '(
+      `(
         auto-complete
         ac-ispell
         company
         company-statistics
-        helm-company
+        (helm-company :location (recipe ,@(plist-put (cdr (quelpa-arg-rcp 'helm-company))
+                                                     :stable nil)))
         helm-c-yasnippet
         hippie-exp
         yasnippet

@@ -10,9 +10,10 @@
 ;;; License: GPLv3
 
 (setq ruby-packages
-      '(
+      `(
         bundler
-        chruby
+        (chruby :location (recipe ,@(plist-put (cdr (quelpa-get-melpa-recipe 'chruby))
+                                               :stable nil)))
         company
         evil-matchit
         flycheck

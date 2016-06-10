@@ -10,13 +10,14 @@
 ;;; License: GPLv3
 
 (setq version-control-packages
-      '(
+      `(
         diff-mode
         diff-hl
         git-gutter
         git-gutter+
         git-gutter-fringe
-        git-gutter-fringe+
+        (git-gutter-fringe+ :location (recipe ,@(plist-put (cdr (quelpa-get-melpa-recipe 'git-gutter-fringe+))
+                                                           :stable nil)))
         ))
 
 (defun version-control/init-diff-mode ()

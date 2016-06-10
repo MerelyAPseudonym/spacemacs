@@ -1,9 +1,11 @@
 (setq osx-packages
-      '(
+      `(
         exec-path-from-shell
         osx-trash
-        pbcopy
-        launchctl
+        (pbcopy :location (recipe ,@(plist-put (cdr (quelpa-get-melpa-recipe 'pbcopy))
+                                               :stable nil)))
+        (launchctl :location (recipe ,@(plist-put (cdr (quelpa-get-melpa-recipe 'launchctl))
+                                                  :stable nil)))
         reveal-in-osx-finder
         helm
         ))

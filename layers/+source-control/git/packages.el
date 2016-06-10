@@ -10,7 +10,7 @@
 ;;; License: GPLv3
 
 (setq git-packages
-      '(
+      `(
         evil-magit
         gitattributes-mode
         gitconfig-mode
@@ -18,7 +18,8 @@
         git-commit
         git-messenger
         git-timemachine
-        helm-gitignore
+        (helm-gitignore :location (recipe ,@(plist-put (cdr (quelpa-get-melpa-recipe 'helm-gitignore))
+                                                       :stable nil)))
         magit
         magit-gitflow
         ;; not compatible with magit 2.1 at the time of release

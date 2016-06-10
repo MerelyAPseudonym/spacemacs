@@ -1,6 +1,7 @@
 (setq restclient-packages
-  '(
-    restclient
+  `(
+    (restclient :location (recipe ,@(plist-put (cdr (quelpa-get-melpa-recipe 'restclient))
+                                               :stable nil)))
     )
   )
 
