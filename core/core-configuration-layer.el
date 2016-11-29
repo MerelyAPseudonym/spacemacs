@@ -209,9 +209,19 @@ is not set for the given SLOT."
 
 (defvar configuration-layer--elpa-archives
   '(("melpa" . "melpa.org/packages/")
-    ("org"   . "orgmode.org/elpa/")
-    ("gnu"   . "elpa.gnu.org/packages/"))
+    ;; ("org"   . "orgmode.org/elpa/")
+    ("gnu"   . "elpa.gnu.org/packages/")
+    ("MELPA Stable" . "stable.melpa.org/packages/")
+    )
   "List of ELPA archives required by Spacemacs.")
+(setq package-archive-priorities
+      '(("melpa" . 0)
+        ("org" . 5)
+        ("marmalade" . 10)
+        ("MELPA Stable" . 20)
+        ("gnu" . 25)))
+(setq package-pinned-packages
+      '((eval-sexp-fu . "melpa")))
 
 (defvar configuration-layer-exclude-all-layers nil
   "If non nil then only the distribution layer is loaded.")
@@ -288,6 +298,7 @@ cache folder.")
 (defun configuration-layer//install-quelpa ()
   "Install `quelpa'."
   (setq quelpa-verbose init-file-debug
+        ;; quelpa-stable-p t
         quelpa-dir (concat spacemacs-cache-directory "quelpa/")
         quelpa-build-dir (expand-file-name "build" quelpa-dir)
         quelpa-persistent-cache-file (expand-file-name "cache" quelpa-dir)

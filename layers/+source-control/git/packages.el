@@ -25,7 +25,7 @@
         magit-gitflow
         ;; not compatible with magit 2.1 at the time of release
         ;; magit-svn
-        orgit
+        ;; orgit
         smeargle
         ))
 
@@ -382,7 +382,7 @@ Press [_b_] again to blame further in the history, [_q_] to go up or quit."
       (evil-define-key 'emacs magit-status-mode-map
         "N" 'magit-key-mode-popup-svn))))
 
-(defun git/init-orgit ())
+;; (defun git/init-orgit ())
 
 (defun git/init-smeargle ()
   (use-package smeargle

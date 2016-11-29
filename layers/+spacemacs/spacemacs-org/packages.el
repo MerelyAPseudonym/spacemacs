@@ -21,7 +21,7 @@
     ;; layer. So it is easier for users to steal the ownership of the
     ;; `org' package.
     (default-org-config :location built-in)
-    (org-plus-contrib :step pre)
+    ;; (org-plus-contrib :step pre)
     org-bullets
     (space-doc :location local)
     toc-org
@@ -30,8 +30,8 @@
 (defun spacemacs-org/post-init-flyspell ()
   (spell-checking/add-flyspell-hook 'org-mode-hook))
 
-;; dummy init function to force installation of `org-plus-contrib'
-(defun spacemacs-org/init-org-plus-contrib ())
+;; ;; dummy init function to force installation of `org-plus-contrib'
+;; (defun spacemacs-org/init-org-plus-contrib ())
 
 (defun spacemacs-org/init-default-org-config ()
   (use-package org
