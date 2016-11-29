@@ -290,6 +290,9 @@ executes.
  This function is mostly useful for variables that need to be set
 before packages are loaded. If you are unsure, you should try in setting them in
 `dotspacemacs/user-config' first."
+
+  ;; Deal with Emacs not being able to use HTTPS URLs behind proxies
+  (customize-set-variable 'dotspacemacs-elpa-https nil)
   )
 
 (defun dotspacemacs/user-config ()
